@@ -7,11 +7,11 @@ import { ShareQuote } from "../components/sharequote/ShareQuote.js";
 export const QuoteBox = ({ quote, author , getQuote}) => {
   return (
     <div id="quote-box">
-      <Text id="text" text={quote} />
-      <Author id="author" author={author} />
+      <Text  text={quote} />
+      <Author  author={author} />
       <div id="buttons">
-        <NewQuote id="new-quote" getQuote={getQuote} />
-        <ShareQuote id="share-quote" quote={quote} />
+        <NewQuote  getQuote={getQuote} />
+        <ShareQuote  quote={quote} />
       </div>
     </div>
   );
