@@ -6,7 +6,7 @@ export const ShareQuote = ({ quote }) => {
 const shareLink = twitterLink + quoteLink
   return (
     <a href={shareLink} target="_blank">
-      Share Quote
+      <i class="fa fa-twitter" aria-hidden="true"></i>
     </a>
   );
 };

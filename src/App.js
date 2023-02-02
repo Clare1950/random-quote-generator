@@ -33,7 +33,7 @@ function App() {
   useEffect( getQuote, [] )
 
   return (
-    <div>
+    <div id="app">
       <h1>Random Quote Generator</h1>
       <QuoteBox
         quote={quote}

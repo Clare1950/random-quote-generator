@@ -9,9 +9,10 @@ export const QuoteBox = ({ quote, author , getQuote}) => {
     <div id="quote-box">
       <Text id="text" text={quote} />
       <Author id="author" author={author} />
-      <NewQuote id="new-quote" getQuote={getQuote}/>
-     < ShareQuote id="share-quote" quote={quote}/>
-    
+      <div id="buttons">
+        <NewQuote id="new-quote" getQuote={getQuote} />
+        <ShareQuote id="share-quote" quote={quote} />
+      </div>
     </div>
   );
 };
